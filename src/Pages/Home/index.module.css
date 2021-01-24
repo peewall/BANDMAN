@@ -1,14 +1,12 @@
 
 .bodyGroup {
-  min-height: 100vh;
-  max-height: 100%;
-  width: 100%;
-  width: 100vw;
-  font-size: 6vw;
+  min-height: 95vh;
+  width: 90vw;
   font-family: "Inconsolata", monospace;
   color: white;
   border-radius: 4px;
   background: rgb(131,58,180);
+  padding: 5vh 0 5vh 5vw;
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
@@ -17,30 +15,38 @@ a {
   color: inherit;
 }
 
-a:hover {
-
-}
-
 .titleText {
-  margin: 0;
-  padding: 1em .25em;
-  font-size: 12vw;
+  margin: 0 0 25vh 0;
+  font-size: 8vw;
   font-family: "Bungee Shade", monospace
 }
 .subheaderGroup {
-  padding-bottom: 4em;
+  padding-bottom: 25vh;
 }
 .subheaderText {
-  margin: 0;
   font-weight: bolder;
-  margin: 1em 0 .5em .5em;
-  font-size: 8vw;
+  margin: 0 0 5vh 0;
+  font-size: 6vw;
 }
 .captionItem {
-  margin: 0em 1em;
+  font-size: 3.5vw;
   font-weight: lighter;
 }
-.socialItem {
-  margin: 0em 1em;
-  font-weight: lighter;
+.hoverBox {
+  display: flex;
+  align-items: center;
+  transition: 0.5s all ease 0s;
+}
+.hoverBox:hover{
+  transition: 0.5s all ease 0s;
+  transform: translateY(3vh);
+}
+.listFlex {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listFlexCol {
+  justify-content: left;
 }
