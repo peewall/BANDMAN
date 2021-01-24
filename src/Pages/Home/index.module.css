@@ -2,9 +2,9 @@
 .bodyGroup {
   min-height: 100vh;
   max-height: 100%;
-  width: 100%; 
+  width: 100%;
   width: 100vw;
-  font-size: 32pt;
+  font-size: 6vw;
   font-family: "Inconsolata", monospace;
   color: white;
   border-radius: 4px;
@@ -24,7 +24,7 @@ a:hover {
 .titleText {
   margin: 0;
   padding: 1em .25em;
-  font-size: 72pt;
+  font-size: 12vw;
   font-family: "Bungee Shade", monospace
 }
 .subheaderGroup {
@@ -34,7 +34,7 @@ a:hover {
   margin: 0;
   font-weight: bolder;
   margin: 1em 0 .5em .5em;
-  font-size: 48pt;
+  font-size: 8vw;
 }
 .captionItem {
   margin: 0em 1em;
