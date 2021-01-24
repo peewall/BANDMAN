@@ -1,4 +1,10 @@
-.bodyGroup {
+.lolText {
+
+  -webkit-animation: bounce 1s infinite ease-in-out;
+  -o-animation: bounce 1s infinite ease-in-out;
+  -ms-animation: bounce 1s infinite ease-in-out;
+  -moz-animation: bounce 1s infinite ease-in-out;
+  animation: bounce 1s infinite ease-in-out;
   padding: 4em;
   display: flex;
   justify-content: center;
@@ -8,4 +14,16 @@
   text-align: center;
   color: rgb(131,58,180);
   color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+@-webkit-keyframes bounce {
+    0% { transform: translateY(-10vh)  }
+    50% { transform: translateY(10vh) }
+    100% { transform: translateY(-10vh) }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-10vh)  }
+    50% { transform: translateY(10vh) }
+    100% { transform: translateY(-10vh) }
 }
