@@ -1,0 +1,46 @@
+
+.bodyGroup {
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%; 
+  width: 100vw;
+  font-size: 32pt;
+  font-family: "Inconsolata", monospace;
+  color: white;
+  border-radius: 4px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+
+}
+
+.titleText {
+  margin: 0;
+  padding: 1em .25em;
+  font-size: 72pt;
+  font-family: "Bungee Shade", monospace
+}
+.subheaderGroup {
+  padding-bottom: 4em;
+}
+.subheaderText {
+  margin: 0;
+  font-weight: bolder;
+  margin: 1em 0 .5em .5em;
+  font-size: 48pt;
+}
+.captionItem {
+  margin: 0em 1em;
+  font-weight: lighter;
+}
+.socialItem {
+  margin: 0em 1em;
+  font-weight: lighter;
+}
