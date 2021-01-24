@@ -1,11 +1,12 @@
 .lolText {
 
-  -webkit-animation: bounce 1s infinite ease-in-out;
-  -o-animation: bounce 1s infinite ease-in-out;
-  -ms-animation: bounce 1s infinite ease-in-out;
-  -moz-animation: bounce 1s infinite ease-in-out;
-  animation: bounce 1s infinite ease-in-out;
-  padding: 4em;
+  -webkit-animation: bounce 1.25s infinite ease-in-out;
+  -o-animation: bounce 1.25s infinite ease-in-out;
+  -ms-animation: bounce 1.25s infinite ease-in-out;
+  -moz-animation: bounce 1.25s infinite ease-in-out;
+  animation: bounce 1.25s infinite ease-in-out;
+  padding: 10vh 5vh;
+  margin: 10vh 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
