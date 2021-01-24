@@ -21,12 +21,12 @@ const Home = () => {
             explore more
           </div>
           <span className={styles.socialItem}>
-            <a href="https://www.youtube.com/channel/UC_FwqJXxfTG0Ksnmn3WtLmw">
+            <a href="https://www.youtube.com/channel/UC_FwqJXxfTG0Ksnmn3WtLmw" target="_blank">
               youtube
             </a>
           </span>
           <span className={styles.socialItem}>
-            <a href="https://instagram.com/bandman.music">
+            <a href="https://instagram.com/bandman.music" target="_blank">
               instagram
             </a>
           </span>
