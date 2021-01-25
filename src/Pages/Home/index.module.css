@@ -16,20 +16,20 @@ a {
 }
 
 .titleText {
-  margin: 0 0 25vh 0;
-  font-size: 8vw;
+  margin: 0 0 10vh 0;
+  font-size: calc(28px + (72 - 28)* (100vw - 400px)/(1200 - 400));
   font-family: "Bungee Shade", monospace
 }
 .subheaderGroup {
-  padding-bottom: 25vh;
+  padding-bottom: 10vh;
 }
 .subheaderText {
   font-weight: bolder;
   margin: 0 0 5vh 0;
-  font-size: 6vw;
+  font-size: calc(24px + (48 - 24)* (100vw - 400px)/(1200 - 400));
 }
 .captionItem {
-  font-size: 3.5vw;
+  font-size: calc(16px + (24 - 16)* (100vw - 400px)/(800 - 400));
   font-weight: lighter;
 }
 .hoverBox {
